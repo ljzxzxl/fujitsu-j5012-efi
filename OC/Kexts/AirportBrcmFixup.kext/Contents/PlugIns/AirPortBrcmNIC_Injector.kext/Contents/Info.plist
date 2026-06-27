@@ -2,16 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
 	<key>CFBundleGetInfoString</key>
-	<string>v1.0</string>
+	<string>Copyright © 2020 lvs1974. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.dhinakg.USBToolBox.injector</string>
+	<string>as.lvs1974.AirportBrcmNICInjector</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>UTBMap</string>
+	<string>AirPortBrcmNIC</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
@@ -22,26 +20,34 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>XHC1</key>
+		<key>Airport_BrcmNIC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.dhinakg.USBToolBox.kext</string>
+			<string>com.apple.driver.AirPort.BrcmNIC</string>
 			<key>IOClass</key>
-			<string>USBToolBox</string>
+			<string>AirPort_BrcmNIC</string>
 			<key>IOMatchCategory</key>
-			<string>USBToolBox</string>
-			<key>IOPCIClassMatch</key>
-			<string>0x0c030000&amp;0xffff0000</string>
+			<string>IODefaultMatchCategory</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>pci14e4,4331</string>
+				<string>pci14e4,4353</string>
+				<string>pci14e4,4357</string>
+				<string>pci14e4,43ba</string>
+				<string>pci14e4,43a3</string>
+				<string>pci14e4,43a0</string>
+				<string>pci14e4,43b1</string>
+				<string>pci14e4,43b2</string>
+			</array>
+			<key>IOProbeScore</key>
+			<integer>2048</integer>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
+			<key>TruePowerOff</key>
+			<true/>
 		</dict>
 	</dict>
-	<key>OSBundleLibraries</key>
-	<dict>
-		<key>com.dhinakg.USBToolBox.kext</key>
-		<string>1.0.0</string>
-	</dict>
 	<key>OSBundleRequired</key>
-	<string>Root</string>
+	<string>Network-Root</string>
 </dict>
 </plist>
