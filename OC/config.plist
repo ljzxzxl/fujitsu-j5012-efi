@@ -521,7 +521,19 @@
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
-		<dict/>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
+			<dict>
+				<key>class-code</key>
+				<data>
+				/////w==
+				</data>
+				<key>device-id</key>
+				<data>
+				//8AAA==
+				</data>
+			</dict>
+		</dict>
 		<key>Delete</key>
 		<dict/>
 	</dict>
@@ -667,7 +679,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/CtlnaAHCIPort</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>20.0.0</string>
 				<key>PlistPath</key>
@@ -865,7 +877,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IOSkywalkFamily</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>23.0.0</string>
 				<key>PlistPath</key>
@@ -883,7 +895,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IO80211FamilyLegacy</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>23.0.0</string>
 				<key>PlistPath</key>
@@ -901,7 +913,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirPortBrcmNIC</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>23.0.0</string>
 				<key>PlistPath</key>
@@ -919,7 +931,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportBrcmFixup</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>14.0.0</string>
 				<key>PlistPath</key>
@@ -937,7 +949,7 @@
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
-				<string>19.99.99</string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>14.0.0</string>
 				<key>PlistPath</key>
@@ -955,7 +967,7 @@
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>20.0.0</string>
 				<key>PlistPath</key>
@@ -973,7 +985,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/BlueToolFixup</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>PlistPath</key>
@@ -991,7 +1003,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/BrcmFirmwareData</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>12.0.0</string>
 				<key>PlistPath</key>
@@ -1009,7 +1021,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/BrcmPatchRAM3</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>PlistPath</key>
@@ -1047,7 +1059,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>23.0.0</string>
+				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1064,7 +1076,7 @@
 				<key>Identifier</key>
 				<string>com.apple.iokit.IOSkywalkFamily</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>23.99.99</string>
 				<key>MinKernel</key>
 				<string>23.0.0</string>
 				<key>Strategy</key>
@@ -1204,7 +1216,7 @@
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
-			<integer>2147483650</integer>
+			<integer>2147483714</integer>
 			<key>LogModules</key>
 			<string>*</string>
 			<key>SysReport</key>
@@ -1295,10 +1307,10 @@
 				AAAAAAAAAAAAAAAAAAA=
 				</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=69 -wegnoigpu -applekeystore=disabled ahciportlimit=0 hibernatemode=0 agdpmod=pikera -amfipassbeta</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=69 -wegnoigpu -applekeystore=disabled ahciportlimit=0 hibernatemode=0 agdpmod=pikera -amfipassbeta -lilubetaall msgbuf=1048576</string>
 				<key>csr-active-config</key>
 				<data>
-				AwgAAA==
+				/w8AAA==
 				</data>
 				<key>prev-lang:kbd</key>
 				<data>
