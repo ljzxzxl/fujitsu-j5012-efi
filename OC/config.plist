@@ -1153,7 +1153,7 @@
 			<key>ProvideCurrentCpuInfo</key>
 			<true/>
 			<key>SetApfsTrimTimeout</key>
-			<integer>0</integer>
+			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
 			<true/>
 			<key>XhciPortLimit</key>
