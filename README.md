@@ -30,8 +30,8 @@
 | :--- | :--- | :--- |
 | **处理器 (CPU)** | 13th Gen Intel Core i5-13500 (14核 6P+8E) | ✅ XCPM 睿频完美，已屏蔽无解的 UHD 770 核显 |
 | **内存 (RAM)** | 64 GB DDR4 3200 MHz | ✅ 正常识别并全速运行 |
-| **主显卡 (GPU 1)** | AMD Radeon RX 5700 XT (8GB) | ✅ Slot-2 满血 x16，Metal 3 支持，硬件编解码全开 |
-| **副显卡 (GPU 2)** | AMD Radeon RX 550 (4GB) 蓝宝石 | ✅ Slot-1 x8 带宽，Metal 2 支持，双卡共存无冲突 |
+| **主显卡 (GPU 1)** | AMD Radeon RX 5700 XT (8GB) | ✅ Oculink 外接，主机侧链路 **Gen4 x4**（卡内 switch 下游 x16），Metal 3 支持，硬件编解码全开 |
+| **副显卡 (GPU 2)** | AMD Radeon RX 550 (4GB) 蓝宝石 | ✅ 机箱内置 Slot-1，走 CPU PEG1 口 **Gen3 x8**，Metal 2 支持，双卡共存无冲突 |
 | **有线网络** | Intel I219-V + 扩展 Intel 82576 NS | ✅ 双千兆/多网口原生驱动 |
 | **无线/蓝牙** | 博通 BCM43xx (DW1820A / 类似型号) | ✅ AirDrop、接力、通用剪贴板完美 (依赖 OCLP) |
 | **固态 (NVMe)** | Samsung 970 EVO Plus 1TB & 500GB | ✅ x4 满速，双盘双系统，建议打入 `NVMeFix.kext` |

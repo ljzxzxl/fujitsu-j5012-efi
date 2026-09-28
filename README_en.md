@@ -30,8 +30,8 @@ Targeting this **5-bay, dual-GPU, multi-NIC** geek-level hardware beast, we have
 | :--- | :--- | :--- |
 | **Processor (CPU)** | 13th Gen Intel Core i5-13500 (14 Cores 6P+8E) | ✅ XCPM Turbo Boost works perfectly, unsupported UHD 770 iGPU disabled |
 | **Memory (RAM)** | 64 GB DDR4 3200 MHz | ✅ Recognized normally and running at full speed |
-| **Main GPU (GPU 1)** | AMD Radeon RX 5700 XT (8GB) | ✅ Slot-2 full x16, Metal 3 supported, full hardware encoding/decoding |
-| **Secondary GPU (GPU 2)** | AMD Radeon RX 550 (4GB) Sapphire | ✅ Slot-1 x8 bandwidth, Metal 2 supported, dual GPUs coexist without conflicts |
+| **Main GPU (GPU 1)** | AMD Radeon RX 5700 XT (8GB) | ✅ External via Oculink, host-side link **Gen4 x4** (x16 downstream of the card's internal switch), Metal 3 supported, full hardware encoding/decoding |
+| **Secondary GPU (GPU 2)** | AMD Radeon RX 550 (4GB) Sapphire | ✅ Internal Slot-1 on the CPU PEG1 port, **Gen3 x8**, Metal 2 supported, dual GPUs coexist without conflicts |
 | **Wired Network** | Intel I219-V + Expansion Intel 82576 NS | ✅ Dual Gigabit/Multi-port native drivers |
 | **Wireless/Bluetooth** | Broadcom BCM43xx (DW1820A / Similar Models) | ✅ AirDrop, Handoff, Universal Clipboard perfect (Requires OCLP) |
 | **Storage (NVMe)** | Samsung 970 EVO Plus 1TB & 500GB | ✅ Full x4 speed, dual drives/OS, `NVMeFix.kext` recommended |
